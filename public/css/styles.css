@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+  }
+  .main-header{
+    background-color: #EAC926;
+    line-height: 1.5;
+    padding: 10px;
+    }
+    .header--logo{
+  width: 300px;
+  }
+  .main-navbar{
+    padding: 15px;
+    display: none;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  .burger-menu {
+    background-color: #03264C;;
+    color: white;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+article img{
+  width: 100%;
+}
+footer .fa-solid {
+  color: blue;
+}.left-navbar{
+  display:flex;
+}.right-navbar{
+  display:flex;
+  margin-left: 15px;
+  justify-content:end;
+}
+@media only screen and (min-width: 361px) {
+}
+@media only screen and (min-width: 769px) {
+  .main-navbar{
+  display: flex;
+}
+  .burger-menu{
+    display: none;
+  }
+}
+footer{
+  text-align: center;
+}
